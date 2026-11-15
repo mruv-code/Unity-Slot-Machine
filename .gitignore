@@ -9,8 +9,12 @@
 /[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/
-/[Bb]uild/
+# Ignore other generated build folders
 /[Bb]uilds/
+
+# Keep the WebGL submission build
+!/Build/
+!/Build/WebGL/
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
 *.log
